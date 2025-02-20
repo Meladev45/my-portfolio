@@ -2,6 +2,7 @@ import React from 'react'
 import Mela2 from '../assets/Mela2.png'
 import {motion} from 'framer-motion'
 import { fadeIn } from '../components/utility'
+import cv from '../assets/resume.pdf'
 
 const About = () => {
   return (
@@ -36,7 +37,7 @@ const About = () => {
          whileInView={'show'}
          viewport={{once:false,amount:0.7}}
          className='text-[--color-p] pt-3 md:pt-0 md:w-full'>
-          Hi, I`m Chiemela Emmanuel officially known as Mela Dev, a FrontEnd Web Developer. I have a diverse range of experience having worked across various fields and industries, also dedicated to crafting visiually engaging user-friendly and responsive website with clean code.
+          Hi, My name is Chiemela Emmanuel officially known as Mela Dev, a FrontEnd Web Developer. I have a diverse range of experience having worked across various fields and industries, also dedicated to crafting visually engaging user-friendly and responsive website with clean code.
         </motion.p>
         <motion.p
          variants={fadeIn('left',0.2)}
@@ -80,9 +81,11 @@ const About = () => {
          className='pt-4 md:mt-4 flex gap-2 items-center justify-center md:justify-start md:gap-4 '>
           {/* download cv btn */}
           <button className=' p-2  rounded-full text-[1rem] w-[100px] text-tcolor font-medium bg-[--color-primary] duration-75 hover:bg-transparent hover:border border-[var(--color-text)]'>
-            <a href="#contact">Hire Me R</a>
+            <a href="#contact" dow>Hire Me R</a>
           </button>
-          <button className='border-2 p-2 w-[140px] rounded-full font-medium text-tcolor border-[var(--color-text)] hover:bg-[--color-hover] hover:text-white'>Download CV</button>
+          <button className='border-2 p-2 w-[140px] rounded-full font-medium text-tcolor border-[var(--color-text)] hover:bg-[--color-hover] hover:text-white'>
+            <a href={cv} download={cv}>Download Cv</a>
+          </button>
         </motion.div>
        </div>
       </div>

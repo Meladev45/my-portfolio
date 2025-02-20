@@ -41,7 +41,7 @@ const Floatingbar = () => {
   return (
     
     
-            <nav className='container bg-[rgba(0,0,0,0.3)] w-max flex gap-3 py-3 px-6 z-20 fixed bottom-8 left-[50%] -translate-x-[50%] rounded-[3rem] backdrop-blur-lg '>
+            <nav className=' bg-[rgba(0,0,0,0.3)] w-max flex gap-3 py-3 px-6 z-20 fixed bottom-8 left-[50%] -translate-x-[50%] rounded-[3rem] backdrop-blur-lg '>
             <a href="#home" className={`p-2 bg-transparent rounded-xl flex text-lg text-tcolor hover:bg-[--color-hover] hover:text-white ${activesec==='home'?'isActive':''}`}>
                 <MdOutlineHome onClick={()=>{handleScrollTo('home')}}/>
             </a>

@@ -59,7 +59,7 @@ const Contact = () => {
         </span>
           <span className='flex flex-col items-left justify-center'>
             <p className='text-[--color-p] text-[0.8rem]'>E-mail</p>
-            <h3 className='text-tcolor font-semibold'>meladev45@gmail.com</h3>
+            <h3 className='text-tcolor font-semibold text-[0.8rem]'>meladev45@gmail.com</h3>
            <button className='text-[--color-p] text-left text-[0.8rem] flex items-center'>
            <a href="mailto:meladev45@gmail.com" target='_blank'>Send</a>
            <CiLocationArrow1 />
@@ -73,7 +73,7 @@ const Contact = () => {
         </span>
           <span className='flex flex-col items-left justify-center'>
             <p className='text-[--color-p] text-[0.8rem]'>Messerger</p>
-            <h3 className='text-tcolor font-semibold'>Mela dev</h3>
+            <h3 className='text-tcolor font-semibold text-[0.8rem]'>Mela dev</h3>
            <button className='text-[--color-p] text-left text-[0.8rem] flex items-center'>
             <a href="https://www.messenger.com/e2ee/t/8270499379661421/" target='_blank'>Send</a>
             <CiLocationArrow1 />
@@ -87,7 +87,7 @@ const Contact = () => {
         </span>
           <span className='flex flex-col items-left justify-center'>
             <p className='text-[--color-p] text-[0.8rem]'>Whatsapp</p>
-            <h3 className='text-tcolor font-semibold'>+234 8067 176 266</h3>
+            <h3 className='text-tcolor font-semibold text-[0.8rem]'>+234 8067 176 266</h3>
            <button className='text-[--color-p] text-left text-[0.8rem] flex items-center'>
             <a href="https://wa.link/h0hecy">Send</a>
             <CiLocationArrow1 />

@@ -15,7 +15,8 @@ import Testimonial from "./Sections/Testimonial"
 function App() {
   return (
     <ThemeProvider>
-    <Navbar/>
+   <div className="overflow-hidden ">
+   <Navbar/>
      <Home/>
      <Floatingbar/>
      <About/>
@@ -25,6 +26,7 @@ function App() {
      <Contact/>
      <FAQ/>
      <Footer/>
+   </div>
     </ThemeProvider>
   )
 }
